@@ -1,3 +1,32 @@
+input[type="image"] {
+	height: 25px;
+	padding-top: 10px;
+	padding-right: 10px;
+	outline: none;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 600px;
+	border:1px solid #e6e6e6;
+	box-shadow: 0 2px 8px #a6a6a6;
+}
+
+.search-box {
+	font-size: 14px;
+	padding: 14px;
+	flex-grow: 2;
+	border: none;
+	outline: none;
+	/* background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat;
+	background-size: 25px;
+	background-position: right; */
+}
+
 #logo {
 	width: 272px;
 	height: 92px;
