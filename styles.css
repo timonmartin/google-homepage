@@ -1,3 +1,17 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+.link a {
+	text-decoration: none;
+	color: #0000b3;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
 input[type="image"] {
 	height: 25px;
 	padding-top: 10px;
@@ -13,7 +27,67 @@ form {
 	margin-top: 30px;
 	width: 600px;
 	border:1px solid #e6e6e6;
-	box-shadow: 0 2px 8px #a6a6a6;
+	box-shadow: 0 1px 5px #a6a6a6;
+}
+
+button {
+	margin-top: 30px;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #8c8c8c;
+	background-color: #f2f2f2;
+	border: none;
+	padding: 12px 12px;
+}
+
+li {
+	float: right;
+	margin: 22px 18px 0 0;
+	font-size: 13px;
+}
+
+
+.icon {
+	height: 26px;
+	position: relative;
+	bottom: 6px;
+}
+
+.search-buttons {
+	text-align: center;
+}
+
+.security {
+	margin: 20px auto;
+	width: 50%;
+	text-align: center;
+	font-size: 13px;
+}
+
+.maori {
+	font-size: 13px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.nav {
+	overflow: hidden;
+	margin-right: 8px;
+	margin-top: 2px;
+}
+
+#security-logo {
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	vertical-align: middle;
+}
+
+#security-text {
+	display: inline;
 }
 
 .search-box {
@@ -33,5 +107,6 @@ form {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 200px;
+	margin-top: 150px;
+	clear: both;
 }
